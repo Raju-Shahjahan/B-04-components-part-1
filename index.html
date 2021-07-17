@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS Links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <title>B.Components part-01(class-04)</title>
+  </head>
+  <body>
+
+
+
+
+    <!-- Accordian -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+
+
+          <h1 class="text-info bg-dark text-center">Accordion</h1>
+
+          <div class="accordion" id="accordionExample">
+      
+      
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="titletwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_one" aria-expanded="true" aria-controls="c_one">
+                  First Question
+                </button>
+              </h2>
+              <div id="c_one" class="accordion-collapse collapse show" aria-labelledby="titletwo" data-bs-parent="#accordionExample">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis placeat nostrum ipsam ullam fuga, molestiae dignissimos suscipit ex, aspernatur itaque minus temporibus omnis. Alias quis cupiditate explicabo quos facilis fugit, blanditiis, voluptatibus laboriosam sint sequi, deserunt ex iste eaque temporibus!</p>
+              </div>
+            </div>
+      
+      
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="titletwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_two" aria-expanded="false" aria-controls="c_two">
+                  Second Question
+                </button>
+              </h2>
+              <div id="c_two" class="accordion-collapse collapse" aria-labelledby="titletwo" data-bs-parent="#accordionExample">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio repellendus aliquid voluptatem saepe illum ad necessitatibus fuga magni officiis laborum.</p>
+              </div>
+            </div>
+      
+      
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="titlethree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_three" aria-expanded="false" aria-controls="c_three">
+                  Third Question
+                </button>
+              </h2>
+              <div id="c_three" class="accordion-collapse collapse" aria-labelledby="titlethree" data-bs-parent="#accordionExample">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quasi. Veniam ea quasi cupiditate nam aperiam officiis non, aut repellat eaque dignissimos placeat commodi eligendi accusamus fuga dicta repellendus, qui sit maiores rem deleniti cum velit quisquam recusandae voluptatem. Corporis itaque ratione id officia rerum ex veritatis, quae provident laboriosam.</p>
+              </div>
+            </div>
+            </div>
+
+          </div>
+
+
+
+
+          <!-- ACCORDION FLUSH -->
+
+          <div class="col-lg-6">
+
+            <h1 class="text-info bg-dark text-center">Flush</h1>
+
+            <div class="accordion accordion-flush" id="flushid">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flushhead1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushc1" aria-expanded="false" aria-controls="flushc1">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="flushc1" class="accordion-collapse collapse" aria-labelledby="flushhead1" data-bs-parent="#flushid">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui voluptatum porro quod, exercitationem sint sequi totam expedita. Amet eos itaque alias tempora nam vero, eius labore magni obcaecati eligendi autem a cumque? Nulla ullam aliquam, nesciunt qui non laudantium!</p>              
+              </div>
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flushhead2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushc2" aria-expanded="false" aria-controls="flushc2">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="flushc2" class="accordion-collapse collapse" aria-labelledby="flushhead2" data-bs-parent="#flushid">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui voluptatum porro quod, exercitationem sint sequi totam expedita. Amet eos itaque alias tempora nam vero, eius labore magni obcaecati eligendi autem a cumque? Nulla ullam aliquam, nesciunt qui non laudantium!</p>
+                </div>
+              </div>
+
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flushhead3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushc3" aria-expanded="false" aria-controls="flushc3">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="flushc3" class="accordion-collapse collapse" aria-labelledby="flushhead3" data-bs-parent="#flushid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui voluptatum porro quod, exercitationem sint sequi totam expedita. Amet eos itaque alias tempora nam vero, eius labore magni obcaecati eligendi autem a cumque? Nulla ullam aliquam, nesciunt qui non laudantium!</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- ALERT -->
+
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="text-info bg-dark text-center">Alert</h1>
+
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="£" class="alert-link">ALERT LINK</a> Minus, quibusdam molestias veniam assumenda cum harum accusamus modi officiis vel, quae sed at fugit! Laboriosam molestias numquam fugiat aliquid vero nihil!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- BADGE -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="text-info bg-dark text-center mb-5">Badge</h1>
+
+          <h3 class="position-relative">Mens T-shirt <span class="badge bg-primary bg-gradient position-absolute cp">New</span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, obcaecati. Repudiandae, laudantium earum quas, eligendi maxime rerum iste dolorem quo illo, eius quos animi pariatur blanditiis unde! Vero, commodi sit.</p>
+        </div>
+        <div class="col-lg-6 d-block mb-5">
+          <h1 class="text-info bg-dark text-center mb-5">Button</h1>
+          <button class="btn btn-info text-white btn-sm" type="button">Click Here</button>
+          <button class="btn btn-outline-success rounded-2" type="submit">Submit</button>
+          <button class="btn btn-outline-danger rounded-2 btn-lg" type="reset">Reset</button>
+
+
+          <div class="btn-group d-block" role="group">
+            <button class="btn btn-primary text-white" type="button">Left</button>
+            <button class="btn btn-warning text-white" type="button">Middle</button>
+            <button class="btn btn-secondary text-white" type="button">right</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- CARD -->
+
+    <div class="container mb-5">
+      <div class="row">
+        <h1 class="text-info bg-dark text-center mb-5">Card</h1>
+
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/camera.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title"> This is Heading</h3>
+              <h6 class="card-subtitle text-muted mb-3"> This is Subtitle</h6>
+              <div class="card-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere hic maxime nostrum cupiditate ea praesentium, saepe repellendus molestiae nisi voluptatibus numquam neque libero soluta quis nesciunt reiciendis sed repellat earum aut dolor fugiat, iusto quo officia? Rem aut voluptate soluta ducimus vero nobis adipisci, impedit omnis eos sed necessitatibus nostrum.</p>
+              </div>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/sky.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">This is Heading</h3>
+              <h6 class="card-subtitle text-muted mb-3"> This is Subtitle</h6>
+              <div class="card-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere hic maxime nostrum cupiditate ea praesentium, saepe repellendus molestiae nisi voluptatibus numquam neque libero soluta quis nesciunt reiciendis sed repellat earum aut dolor fugiat, iusto quo officia? Rem aut voluptate soluta ducimus vero nobis adipisci, impedit omnis eos sed necessitatibus nostrum.</p>
+              </div>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/camera.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h3 class="card-title">This is Heading</h3>
+              <h6 class="card-subtitle text-muted mb-3"> This is Subtitle</h6>
+              <div class="card-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere hic maxime nostrum cupiditate ea praesentium, saepe repellendus molestiae nisi voluptatibus numquam neque libero soluta quis nesciunt reiciendis sed repellat earum aut dolor fugiat, iusto quo officia? Rem aut voluptate soluta ducimus vero nobis adipisci, impedit omnis eos sed necessitatibus nostrum.</p>
+              </div>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+
+
+
+    <!-- COLLAPSE -->
+
+    <div class="container">
+      <div class="row">
+        <h1 class="text-info bg-dark text-center mb-5">Collapse</h1>
+        <div class="col-lg-6">
+          <p>
+            <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseid" role="button" aria-expanded="true" aria-controls="collapseid">
+              Lorem ipsum dolor sit amet?
+            </a>
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseid" aria-expanded="false" aria-controls="collapseid">
+              Lorem ipsum dolor sit amet?
+            </button>
+          </p>
+          <div class="collapse" id="collapseid">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-6">
+          <p>
+            <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseid1" role="button" aria-expanded="false" aria-controls="collapseid1">Toggle first element</a>
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseid2" aria-expanded="false" aria-controls="collapseid2">Toggle second element</button>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="collapseid1 collapseid2">Toggle both elements</button>
+          </p>
+
+          <div class="row">
+
+            <div class="col">
+              <div class="collapse multi-collapse" id="collapseid1">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt rem numquam saepe ratione rerum repellendus quod asperiores labore, reiciendis provident ad repellat corrupti? Eaque soluta molestias aliquam excepturi amet natus commodi est reiciendis, beatae totam aspernatur perspiciatis ex libero consequuntur cum et possimus quas, id voluptate optio accusantium? Inventore.</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="collapse multi-collapse" id="collapseid2">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nihil magnam beatae, ex corporis deleniti totam sit autem, repudiandae provident architecto natus iste? Harum odio quibusdam consequatur repudiandae debitis tempora!</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- DROPDOWN -->
+    
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+        <h1 class="text-info bg-dark text-center mb-5">Dropdown</h1>
+        <div class="dropdown">
+          <button class="btn btn-info dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+       </div>
+
+
+       <div class="col-lg-6">
+        <h1 class="text-info bg-dark text-center mb-5">List Group</h1>
+
+        <div class="list-group">
+          <a href="£" class="list-group-item list-group-item-action">APPLE</a>
+          <a href="£" class="list-group-item list-group-item-action">BALL</a>
+          <a href="£" class="list-group-item list-group-item-action active">CAP</a>
+          <a href="£" class="list-group-item list-group-item-action">DOG</a>
+          <a href="£" class="list-group-item list-group-item-action">EGG</a>
+          <a href="£" class="list-group-item list-group-item-action">FISH</a>
+          <a href="£" class="list-group-item list-group-item-action">GOAT</a>
+  
+       </div>
+     </div>
+   </div>
+
+  
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!--JS Links-->
+    
+   <script src="./js/popper.min.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/script.js"></script>
+    
+  </body>
+</html>
